@@ -1,4 +1,3 @@
-
 const Popup = () => {
   const handleLoginClick = () => {
     window.open(chrome.runtime.getURL('src/pages/login.jsx'), '_blank');
@@ -6,10 +5,9 @@ const Popup = () => {
 
   return (
     <>
-      <h1>Hello from the Browser Extension Popup!</h1>;
+      <h1>Hello </h1>
       <button onClick={handleLoginClick}>Login</button>
     </>
-    
   )
 };
 
